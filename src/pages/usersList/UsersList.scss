@@ -1,0 +1,62 @@
+.users-list-screen {
+	width: 100%;
+	display: flex;
+	margin-top: 30px;
+	padding: 20px;
+	flex-direction: column;
+	justify-content: center;
+	.search-user-form {
+		width: 400px;
+		// margin: auto;
+		padding: 10px;
+	}
+	.user-card {
+		// width: 100%;
+		display: flex;
+		margin: 10px;
+		padding: 10px;
+		border-radius: 8px;
+		justify-content: space-between;
+		background: #ffffff;
+		box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.2),
+			0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+		.user-details-section {
+			display: flex;
+			.user-image-container {
+				width: 100px;
+				height: 100px;
+				border-radius: 15px;
+				background: #a5a5a5;
+			}
+			.user-details {
+				text-align: start;
+				margin-left: 20px;
+				.user-name {
+					font-size: 18px;
+				}
+				.user-email {
+					display: flex;
+					align-items: center;
+					margin-top: 10px;
+					font-size: 14px;
+				}
+				.user-contact {
+					display: flex;
+					align-items: center;
+					margin-top: 5px;
+					font-size: 14px;
+				}
+				.MuiSvgIcon-root {
+					margin-right: 10px;
+				}
+			}
+		}
+
+		.card-actions-section {
+			display: flex;
+			.edit-contianer {
+				margin-right: 20px;
+			}
+		}
+	}
+}

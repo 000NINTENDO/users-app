@@ -1,0 +1,32 @@
+.app-header {
+	width: 100%;
+	padding: 15px;
+	background: rgb(0, 0, 0);
+	display: flex;
+	align-items: center;
+	color: white;
+	position: sticky;
+	top: 0px;
+	.app-logo {
+		font-family: "Kanit", sans-serif;
+		font-size: 24px;
+		margin-left: 25px;
+	}
+	.nav-bar {
+		list-style: none;
+		list-style-type: none;
+		display: flex;
+		align-items: center;
+		margin: 0px;
+		margin-left: 2%;
+		.nav-link {
+			font-size: 14px;
+			padding: 0px 15px;
+			color: white;
+		}
+
+		.nav-link-active {
+			color: #ff0000;
+		}
+	}
+}

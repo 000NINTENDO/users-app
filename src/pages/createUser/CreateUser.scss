@@ -1,0 +1,51 @@
+.create-user-screen {
+	width: 100%;
+	// height: calc(100vh - 100px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	.create-user-form {
+		width: 350px;
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+		margin-top: 50px;
+		// color: white;
+		.title {
+			margin-bottom: 20px;
+			font-weight: 500;
+		}
+		.input-container {
+			width: 100%;
+			display: flex;
+			.input-field {
+				font-family: "Poppins", sans-serif;
+				width: 350px !important;
+				padding: 8px 20px;
+				border-radius: 30px;
+				border: solid 0px #888888;
+				background: #d8d8d8;
+				color: #000000;
+				outline: none;
+				margin-bottom: 10px;
+				box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.2);
+				::placeholder {
+					color: white !important;
+				}
+			}
+		}
+		.create-button {
+			width: 200px;
+			border-radius: 30px;
+			margin-top: 10px;
+			justify-self: center;
+			align-self: center;
+			font-size: 14px;
+			background: #000000 !important;
+			.MuiButton-label {
+				font-family: "Poppins", sans-serif;
+				font-weight: 400;
+			}
+		}
+	}
+}
